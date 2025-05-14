@@ -1,6 +1,6 @@
 builders:
   compiler:
-    import: "package:jaspr_tailwind/builder.dart"
+    import: "package:jaspr_daisyui/builder.dart"
     builder_factories: [ "buildStylesheet" ]
     build_extensions:
       "web/{{file}}.tw.css":

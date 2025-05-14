@@ -1,8 +1,9 @@
 name: jaspr_daisyui
 description: Tailwind and DaisyUI integration for Jaspr.
 version: 0.1.0
+homepage: https://github.com/dazemc/jaspr_daisyui
 repository: https://github.com/dazemc/jaspr_daisyui
-issue_tracker: https://github.com/dazemc/jaspr_daisyui
+issue_tracker: https://github.com/dazemc/jaspr_daisyui/issues
 documentation: https://docs.jaspr.site/eco/tailwind
 
 topics:

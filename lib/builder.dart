@@ -24,9 +24,9 @@ class TailwindBuilder implements Builder {
     final packageFile = File('.dart_tool/package_config.json');
     final packageJson = jsonDecode(await packageFile.readAsString());
 
-    final packageConfig = (packageJson['packages'] as List?)?.where((p) => p['name'] == 'jaspr_tailwind').firstOrNull;
+    final packageConfig = (packageJson['packages'] as List?)?.where((p) => p['name'] == 'jaspr_daisyui').firstOrNull;
     if (packageConfig == null) {
-      print("Cannot find 'jaspr_tailwind' in package config.");
+      print("Cannot find 'jaspr_daisyui' in package config.");
       return;
     }
 
