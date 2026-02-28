@@ -51,5 +51,4 @@ dart_code_metrics:
     - prefer-correct-identifier-length
 
 formatter:
-  line-length: 120
   page_width: 120
